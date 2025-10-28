@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffe6f2;
+  color: #4a4a4a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* 🌸 NAVBAR */
+.navbar {
+  background-color: #ff9ecf;
+  color: white;
+  width: 100%;
+  padding: 1.5rem 0;
+  border-bottom: 4px solid #ff66b2;
+  box-shadow: 0 4px 10px rgba(255, 102, 178, 0.3);
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.navbar h3 {
+  margin: 0.3rem 0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.navbar nav {
+  margin-top: 0.5rem;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff0f7;
+  text-decoration: underline;
+}
+
+/* 💕 PROGRAMAS */
+.main-section {
+  padding: 2rem;
+}
+
+.main-section h3 {
+  color: #ff66b2;
+  font-size: 1.8rem;
+}
+
+.programs {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(255, 105, 180, 0.2);
+  font-weight: 600;
+  border: 2px solid #ffb3d9;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #ffe6f2;
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(255, 105, 180, 0.3);
+}
+
+/* 🌷 CONTACTO */
+.contact {
+  background-color: #fff0f7;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 60%;
+  margin: 2rem 0;
+  box-shadow: 0 6px 15px rgba(255, 105, 180, 0.25);
+}
+
+.contact h3 {
+  color: #ff66b2;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border: 2px solid #ffb3d9;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #ff66b2;
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.4);
+}
+
+.contact button {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background-color: #ff3385;
+}
+
+/* 🌺 FOOTER */
+footer {
+  background-color: #ff9ecf;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  border-top: 4px solid #ff66b2;
+}
