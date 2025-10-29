@@ -6,7 +6,7 @@ function App() {
     <div className="container">
       {/* Barra de navegación */}
       <header className="navbar">
-        <h2>Servicio Nacional de Aprendizaj</h2>
+        <h2>Servicio Nacional de Aprendizaje</h2>
         <h3>CGMLTI Bogotá</h3>
         <nav>
           <a href="#">Inicio</a>
